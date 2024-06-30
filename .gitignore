@@ -119,3 +119,4 @@ dist
 //kw .env
 .env.local
 .env
+.vercel
