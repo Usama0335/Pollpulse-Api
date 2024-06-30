@@ -89,6 +89,11 @@ const app = express();
 if (process.env.NODE_ENV !== "test") {
     app.use(logger("dev"));
 }
+app.use(cors({
+    origin: ["https://deploy-mern-lwhq.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true
+  }));
 
 import { fileURLToPath } from 'node:url';
 const filename = fileURLToPath(import.meta.url);
