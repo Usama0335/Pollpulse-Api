@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/1f6d3447-e2af-451b-b2e8-25f4d186bda2/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Pollpulsebackend",
+    "appService.deploySubpath": "."
+}

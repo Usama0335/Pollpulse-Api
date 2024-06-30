@@ -1,0 +1,31 @@
+.container.dashboard {
+    margin-top: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .actions {
+    margin-bottom: 20px;
+  }
+  
+  .poll-list {
+    margin-top: 20px;
+  }
+  
+  .poll-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .poll-actions {
+    margin-top: 10px;
+  }
+  
+  .poll-actions .btn {
+    margin-right: 10px;
+  }
+  
